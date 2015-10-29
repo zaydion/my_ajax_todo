@@ -1,0 +1,12 @@
+<h1>Listing Tasks</h1>
+ 
+ <%= render 'form' %>
+
+<ul id="tasks"> 
+   <%= render @tasks %>
+</ul>
+
+
+<br>
+
+<%= link_to 'New Task', new_task_path %>
